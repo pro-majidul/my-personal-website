@@ -1,0 +1,135 @@
+body{
+    font-family: "Public Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: gray;
+    padding-bottom: 12px;
+}
+.pink-color{
+    color: #e84393;
+}
+.half-content img{
+    width: 100%;
+}
+.design{
+    display: flex;
+    justify-content: space-around;
+}
+.half-content{
+ flex-basis:40%;
+ margin-top: 5%;
+ margin-left:5%;
+ padding-left:2%;
+    
+}
+.btn-link{
+    text-decoration:none;
+    background-color: orangered;
+    padding:10px 20px;
+    border-radius:5px;
+    color: white;
+    margin-top: 20px;
+    transition: 2s;
+}
+.btn-link:hover{
+    background-color:#0833f3;
+
+}
+
+.header-area-style{
+    background-image:url('images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.area-style{
+    background-image:url('images/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.warkplace-style > h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.slider{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.content-slize{
+    flex-basis: 30%;
+}
+.content-slize img {
+    width: 100%;
+}
+.warkplace-style{
+    background-image: url('images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+}
+.footer-area-style{
+    background-image:url('images/footer-bg.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+   height:500px;
+}
+.font-area{
+    text-align: center;
+    padding: 14px 0;
+}
+
+.font-area > h2{
+    padding: 15px 0;
+}
+.font-area > h4{
+    line-height: 0px;
+    padding-top: 20px;
+}
+.font-area > h5{
+    font-weight: normal;
+    color: rgb(145, 113, 113);
+    line-height: 0px;
+    font-size: 10px;
+}
+.font-area > p{
+    color: rgb(22, 20, 20);
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 40%;
+}
+button{
+    background-color:#e84393;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 60px;
+}
+button > p{
+    color: bisque;
+}
+button > a{
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+}
+
+span{
+    display: block;
+    margin-top: 50px;
+    margin-bottom:5px;
+    color: gray;
+    font-size: 12px;
+}
