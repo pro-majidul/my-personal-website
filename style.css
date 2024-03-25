@@ -70,9 +70,13 @@ p{
 }
 .content-slize{
     flex-basis: 30%;
+    }
+.content-slize:hover{
+ transform: scale(1.2);
 }
 .content-slize img {
     width: 100%;
+
 }
 .warkplace-style{
     background-image: url('images/latest-work-bg.png');
